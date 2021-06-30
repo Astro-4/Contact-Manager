@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace HarrisContactManagerCSharp
+{
+    public abstract class Contact
+    {
+        public int ContactID{ get; set; }
+        public string ContactFname { get; set; }
+
+        public string ContactLname { get; set; }
+
+        public string ContactEmail { get; set; }
+    }
+}
