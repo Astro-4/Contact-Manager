@@ -66,6 +66,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusinessContact.cs" />
     <Compile Include="Contact.cs" />
     <Compile Include="ContactMenu.cs">
       <SubType>Form</SubType>

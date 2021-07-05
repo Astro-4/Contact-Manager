@@ -9,5 +9,7 @@ namespace HarrisContactManagerCSharp
     public class PersonalContact:Contact
     {
         public string PersonalTel { get; set; }
+
+        public string ContactDepartment{ get; set; }
     }
 }

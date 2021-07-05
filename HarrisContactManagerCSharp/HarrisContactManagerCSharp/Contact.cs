@@ -14,5 +14,11 @@ namespace HarrisContactManagerCSharp
         public string ContactLname { get; set; }
 
         public string ContactEmail { get; set; }
+
+        public string ContactAddr{ get; set; }
+
+        public string ContactCity { get; set; }
+
+        public string ContactPostcode{ get; set; }
     }
 }
