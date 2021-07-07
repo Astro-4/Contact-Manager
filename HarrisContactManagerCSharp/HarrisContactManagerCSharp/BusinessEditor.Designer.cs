@@ -59,6 +59,7 @@ namespace HarrisContactManagerCSharp
             // 
             // dGVBusinessRecords
             // 
+            this.dGVBusinessRecords.AllowUserToAddRows = false;
             this.dGVBusinessRecords.AllowUserToResizeColumns = false;
             this.dGVBusinessRecords.AllowUserToResizeRows = false;
             this.dGVBusinessRecords.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;

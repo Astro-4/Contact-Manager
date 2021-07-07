@@ -57,6 +57,7 @@ namespace HarrisContactManagerCSharp
             // 
             // dGVPersonalRecords
             // 
+            this.dGVPersonalRecords.AllowUserToAddRows = false;
             this.dGVPersonalRecords.AllowUserToResizeColumns = false;
             this.dGVPersonalRecords.AllowUserToResizeRows = false;
             this.dGVPersonalRecords.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -68,7 +69,6 @@ namespace HarrisContactManagerCSharp
             this.dGVPersonalRecords.Size = new System.Drawing.Size(1033, 459);
             this.dGVPersonalRecords.TabIndex = 0;
             this.dGVPersonalRecords.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dGVPersonalRecords_CellClick);
-            
             // 
             // btnAddNew
             // 
